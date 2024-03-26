@@ -2,8 +2,6 @@
 
 import { personalData } from "@utils/data/personal-data";
 
-console.log("personalData", personalData);
-
 function AboutSection() {
   return (
     <div id="about" className="my-12 lg:my-16 relative">
