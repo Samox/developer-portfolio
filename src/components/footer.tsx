@@ -11,7 +11,14 @@ function Footer() {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">
-            © Developer Portfolio by <a target="_blank" href="https://www.linkedin.com/in/abu-said-bd/" className="text-[#16f2b3]">Abu Said</a>
+            © Developer Portfolio by{" "}
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/abu-said-bd/"
+              className="text-[#16f2b3]"
+            >
+              Abu Said & Sammy Teillet
+            </a>
           </p>
           <div className="flex items-center gap-5">
             <a
@@ -33,8 +40,8 @@ function Footer() {
           </div>
         </div>
       </div>
-    </div >
+    </div>
   );
-};
+}
 
 export default Footer;
