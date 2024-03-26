@@ -1,6 +1,8 @@
+import profile from "@assets/profile.jpeg";
+
 export const personalData = {
   name: "SAMMY TEILLET",
-  profile: "/profile.jpeg",
+  profile: profile,
   designation: "Software Developer",
   description:
     "My name is Sammy Teillet. I'm a software developer and inventor, based in Nantes, France. My favorite color is green. I love spicy food. I code everyday. I'm fullstack, with a preference for backend and infrastructure topics. I'm driven by solving people's problem.",

@@ -5,6 +5,8 @@ import { BsPersonWorkspace } from "react-icons/bs";
 import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 import experience from "@assets/lottie/code.json";
+import section from "@assets/section.svg";
+import blur23 from "@assets/blur-23.svg";
 
 function Experience() {
   return (
@@ -13,7 +15,7 @@ function Experience() {
       className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]"
     >
       <img
-        src="/section.svg"
+        src={section}
         alt="Hero"
         width={1572}
         height={795}
@@ -47,7 +49,7 @@ function Experience() {
                 >
                   <div className="p-3 relative">
                     <img
-                      src="/blur-23.svg"
+                      src={blur23}
                       alt="Hero"
                       width={1080}
                       height={200}

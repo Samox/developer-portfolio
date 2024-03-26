@@ -52,7 +52,7 @@ function Skills() {
                 <div className="flex flex-col items-center justify-center gap-3 p-6">
                   <div className="h-8 sm:h-10">
                     <img
-                      src={skillsImage(skill)?.src}
+                      src={skillsImage(skill)}
                       alt={skill}
                       width={40}
                       height={40}
