@@ -17,13 +17,21 @@ function Footer() {
               href="https://www.linkedin.com/in/abu-said-bd/"
               className="text-[#16f2b3]"
             >
-              Abu Said & Sammy Teillet
+              Abu Said
+            </a>
+            {" & "}
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/sammy-teillet-30b97963/"
+              className="text-[#16f2b3]"
+            >
+              Sammy Teillet
             </a>
           </p>
           <div className="flex items-center gap-5">
             <a
               target="_blank"
-              href="https://github.com/said7388/developer-portfolio"
+              href="https://github.com/Samox/developer-portfolio"
               className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
             >
               <IoStar />
@@ -31,7 +39,7 @@ function Footer() {
             </a>
             <a
               target="_blank"
-              href="https://github.com/said7388/developer-portfolio/fork"
+              href="https://github.com/Samox/developer-portfolio/fork"
               className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
             >
               <CgGitFork />
