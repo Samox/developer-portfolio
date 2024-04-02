@@ -20,8 +20,10 @@ function HeroSection() {
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
             This is <span className=" text-pink-500">{personalData.name}</span>
-            {`, I'm a Professional `}
-            <span className=" text-[#16f2b3]">{personalData.designation}</span>.
+            {`, I'm a `}
+            <span className=" text-[#16f2b3]">{personalData.designation}</span>
+            {` and `}
+            <span className=" text-[#16f2b3]">Entrepreneur</span>.
           </h1>
 
           <div className="my-12 flex items-center gap-5">
